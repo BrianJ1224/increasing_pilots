@@ -1,4 +1,4 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
+# "## Project 3: Web APIs & NLP"
 #### Author: Brian Jankowitz
 [Medium](https://medium.com/@JankowitzB) | [LinkedIn](https://www.linkedin.com/in/brian-jankowitz/)
 
@@ -9,7 +9,7 @@
 
 With the mandatory retirmemnt age of airline pilots being 65 years old, a lot of airline pilots are reaching the mandatory retirment age. According to CNBC, there will be a demand for 800,000 new airline pilots over the next 20 years. Ex-CEO of Boeing, Dennis Muilenburg, says that "the global pilot shortage will be one of the biggest challenges facing the airline industry.
 
-Airlines have tried to help train new pilots by creating Cadet Programs. The marketing team in our company wants to market cadet programs to people interetsed in aviation. To predict accurately which group they should market to, the marketing team wants to see from certain posts which category a user might belong to, Technology or Flying, and market to them. By marketing to a group that has an interest in flying, the marketing team will be able to reach people interested in aviation and expose them to this program, with the ultimate goal of having them sign up for cadet programs to reduce help employ pilots at an airline.
+Airlines have tried to help train new pilots by creating Cadet Programs. The marketing team in our company wants to market cadet programs to people interetsed in aviation. To predict accurately which group they should market to, the marketing team wants to see from certain posts which category a user might belong to, Technology or Flying, and market to them. These two groups were chosen as they both have potential interests at becoming pilots. Different ads will be used to market to them in order to expose them to the cadet program. The ultimate goal of having them sign up for cadet programs to reduce help employ pilots at an airline. 
 
 ## Executive Summary
 
@@ -25,7 +25,7 @@ The train and test score are overfit as there is a .04 difference. The cross val
 
 ## Conclusions
 
-The model with multinomialNB and Count Vectorizer has test score of 0.89. This model has 44 true negative and 409 true positive. The 44 is really good as we want to minimize the number of people that are not the correct audience for the marketing team. We still want a higher rate for true positive but true negative is more important as we want to market to the correct people. This will save money on marketing. With this type of marketing, this should help increase the awareness of cadet programs and hopefully get more people to do them. This should help decrease the pilot shortage that is predicted in the future.
+We are able to predict which subreddit a person comes from 89% correctly, we can confidently say that we can differentiate between the two subreddits, flying and technology. We have a sensitivity of 97% which means we are prediciting our true positives, the subreddit that the person comes from, correctly 97%. This is good as we want to maximize the number of people that the marketing team can use to market to the their audience from each subreddit. This can help increase awareness about the cadet program with the ultimate goal of having people sign up for the cadet program. This will be able to help decrease the shortage of airline pilots in the future.
 
 ## Recommendations
 
