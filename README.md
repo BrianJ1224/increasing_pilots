@@ -1,4 +1,4 @@
-# "## Project 3: Web APIs & NLP"
+# "Project 3: Web APIs & NLP"
 #### Author: Brian Jankowitz
 [Medium](https://medium.com/@JankowitzB) | [LinkedIn](https://www.linkedin.com/in/brian-jankowitz/)
 
